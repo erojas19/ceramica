@@ -1,0 +1,145 @@
+[
+  {
+    "pk": 1,
+    "model": "menu.Menu",
+    "fields": {
+      "text": "Configuracion",
+      "icon_cls": "empres",
+      "status": true,
+      "class_name": "",
+      "require_source": "",
+      "require_text": "",
+      "parent": null
+    }
+  },
+  {
+    "pk": 2,
+    "model": "menu.Menu",
+    "fields": {
+      "text": "Datos Generales",
+      "icon_cls": "empres",
+      "status": true,
+      "class_name": "company_main",
+      "require_source": "/static/home/app/view/company/Company.js",
+      "require_text": "ceramica2.view.company.Company",
+      "parent": 1
+    }
+  },
+  {
+    "pk": 3,
+    "model": "menu.Menu",
+    "fields": {
+      "text": "Admin",
+      "icon_cls": "user",
+      "status": true,
+      "class_name": "",
+      "require_source": "",
+      "require_text": "",
+      "parent": null
+    }
+  },
+  {
+    "pk": 4,
+    "model": "menu.Menu",
+    "fields": {
+      "text": "Productos",
+      "icon_cls": "",
+      "status": true,
+      "class_name": "",
+      "require_source": "",
+      "require_text": "",
+      "parent": null
+    }
+  },
+  {
+    "pk": 5,
+    "model": "menu.Menu",
+    "fields": {
+      "text": "Produccion",
+      "icon_cls": "",
+      "status": true,
+      "class_name": "",
+      "require_source": "",
+      "require_text": "",
+      "parent": null
+    }
+  },
+  {
+    "pk": 6,
+    "model": "menu.Menu",
+    "fields": {
+      "text": "Usuarios",
+      "icon_cls": "user",
+      "status": true,
+      "class_name": "user",
+      "require_source": "/static/home/app/view/user/User.js",
+      "require_text": "ceramica2.view.user.User",
+      "parent": 3
+    }
+  },
+  {
+    "pk": 7,
+    "model": "menu.Menu",
+    "fields": {
+      "text": "Productos",
+      "icon_cls": "product",
+      "status": true,
+      "class_name": "product",
+      "require_source": "/static/home/app/view/product/Product.js",
+      "require_text": "ceramica2.view.product.Product",
+      "parent": 4
+    }
+  },
+  {
+    "pk": 8,
+    "model": "menu.Menu",
+    "fields": {
+      "text": "Maquina",
+      "icon_cls": "maquinaria",
+      "status": true,
+      "class_name": "machine",
+      "require_source": "/static/home/app/view/production/machine/Machine.js",
+      "require_text": "ceramica2.view.production.machine.Machine",
+      "parent": 5
+    }
+  },
+  {
+    "pk": 9,
+    "model": "menu.Menu",
+    "fields": {
+      "text": "Carga",
+      "icon_cls": "charge",
+      "status": true,
+      "class_name": "charge",
+      "require_source": "/static/home/app/view/production/charge/Charge.js",
+      "require_text": "ceramica2.view.production.charge.Charge",
+      "parent": 5
+    }
+  },
+  {
+    "pk": 10,
+    "model": "menu.Menu",
+    "fields": {
+      "text": "Quemado",
+      "icon_cls": "burn",
+      "status": true,
+      "class_name": "burn",
+      "require_source": "",
+      "require_text": "",
+      "parent": 5
+    }
+  },
+  {
+    "pk": 11,
+    "model": "menu.Menu",
+    "fields": {
+      "text": "Quemado",
+      "icon_cls": "discharge",
+      "status": true,
+      "class_name": "discharge",
+      "require_source": "",
+      "require_text": "",
+      "parent": 5
+    }
+  }
+]
