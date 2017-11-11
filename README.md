@@ -1,6 +1,10 @@
 # Sistema de produccion
 ## pasos para la instalacion
 admin-django startproject ceramica
+## instalacion de requeriment
+
+pip install -r local.txt
+
 ## pasos para runserver
 
 python manage.py runserver --settings=ceramica.settings.local
